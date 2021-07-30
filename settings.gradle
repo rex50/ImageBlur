@@ -1,0 +1,2 @@
+rootProject.name = "ImageBlur"
+include ':image-blur', ':sample'
