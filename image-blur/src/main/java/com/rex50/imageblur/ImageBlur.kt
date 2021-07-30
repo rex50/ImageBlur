@@ -222,7 +222,7 @@ class ImageBlur private constructor(private val context: Context) {
 
     companion object {
 
-        const val TAG = "BlurImage"
+        private const val TAG = "BlurImage"
 
         private const val MAX_RADIUS = 25.0f
         private const val MIN_SCALE = 0.2f

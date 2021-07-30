@@ -39,9 +39,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun applyBlurToImageView(intensity: Float) {
         ImageBlur.with(this)
-            .load(image)
-            .intensity(intensity)
-            .scale(0.5f)
-            .into(binding?.ivPreview)
+            .load(image) //Bitmap from which blurred image will be created
+            .intensity(intensity) //Blur intensity
+            .scale(0.5f) //Scale intensity
+            .into(binding?.ivPreview) //Directly apply to image view
     }
 }
