@@ -9,11 +9,13 @@ Based on [BlurImage](https://github.com/sparrow007/BlurImage) library
 
 ## Gradle
 #### Step 1. Add the dependency
+##### Latest version 
+[![](https://jitpack.io/v/rex50/imageblur.svg)](https://jitpack.io/#rex50/imageblur) 
 
 ```
 dependencies {
     ...
-    Implementation 'url'
+    Implementation 'com.github.rex50:imageblur:$latest_version'
 }
 ```
 
